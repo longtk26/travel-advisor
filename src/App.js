@@ -1,11 +1,15 @@
+import clsx from "clsx";
+import { Header, List, Map } from "./components";
+import styles from "./App.module.scss";
 import GlobalStyles from "./components/GlobalStyles";
-import { Header } from "./components";
 
 function App() {
     return (
         <GlobalStyles>
-            <div>
-                <Header />
+            <Header />
+            <div className={clsx(styles.container)}>
+                <List />
+                <Map />
             </div>
         </GlobalStyles>
     );
