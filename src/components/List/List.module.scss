@@ -1,2 +1,15 @@
-.container {
+.title {
+    font-size: 3.4rem;
+    font-weight: 400;
 }
+
+.choices {
+    margin-top: 1rem;
+}
+
+.types {
+    display: flex;
+    align-items: flex-end;
+    gap: 3rem;
+}
+

@@ -1,0 +1,52 @@
+.container {
+    position: relative
+}
+
+.input {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.5rem 0 0.5rem 0;
+    border-bottom: 1px solid #919191;
+    width: 120px;
+
+    cursor: pointer;
+
+    &:hover {
+     border-bottom: 2px solid #000;
+    }
+}
+
+.label {
+    text-transform: capitalize;
+}
+
+.type {
+    text-transform: capitalize;
+    font-size: 1.2rem;
+    color: #595c59;
+}
+
+.list {
+    position: absolute;
+    transform: translateY(-30%);
+    padding: 0.8rem 0;
+    list-style-type: none;
+    box-shadow: 0px 5px 5px -3px rgb(0 0 0 / 20%), 0px 8px 10px 1px rgb(0 0 0 / 14%), 0px 3px 14px 2px rgb(0 0 0 / 12%);
+    border-radius: 4px;
+    background-color: #fff;
+}
+
+.item {
+    padding: 1rem 2rem;
+    cursor: pointer;
+
+    &:hover {
+        background-color: rgba(0, 0, 0, 0.04);
+    }
+
+}
+
+.item.active {
+    background-color: #ebebeb;
+}
